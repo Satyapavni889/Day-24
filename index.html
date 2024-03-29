@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            border: 2px solid;
+            display: flex;
+            height: 200px;
+            width: 100%;
+        }
+        .cd img {
+            width: 100px;
+            height: 50px;
+            transition: all 0.3s ease; }
+        .cd{
+            border: 1px solid;
+            overflow: hidden;
+        }
+        .cd1{
+            flex-grow:5;
+        }
+        .cd2{
+            flex-grow:3;
+        } .cd3{
+            flex-grow:1;
+        }
+        .cd img:hover{
+            height: 100%;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="cd cd1"><img  src="../images/b1.jpeg"  width="100px" ></div>
+        <div class="cd cd2"><img src="../images/B2.jpeg"  height="50px"></div>
+        <div class="cd cd3"><img src="../images/B3.jpeg"  height="50px"></div>   
+    </div>
+</body>
+</html>
